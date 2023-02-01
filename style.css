@@ -1,0 +1,59 @@
+* {
+    margin: 0; /* 여백 : 없음 */
+}
+/* 선택자(=Selector) 
+    0) 전체 선택자(=공용 선택자) : * 
+    1) 태그 선택자 : h1, p, body,...
+    2) 클래스 선택자 : .이름
+    3) 아이디 선택자 : #이름
+    4) 그룹 선택자 : 선택자1, 선택자2, ...(comma)
+*/
+html {
+    scroll-behavior: smooth; /* 스크롤 : 부드럽게 이동 */
+}
+body {
+    margin: 0; /* (바깥)여백 : 0 (=없음) */
+    text-align: center; /* 텍스트-정렬: (가로) 가운데 */
+}
+h2,h3,h4,h5,h6,p { /* h1부터 p까지를 스타일 적용하겠다 */
+    margin: 5rem 0;
+}
+#moto {
+    width: 914px;
+    height: 90px;
+    line-height: 60px;
+    background-image: url("ribbone-green.png");
+    margin: 0 auto; /* (바깥)여백 : 상하0, 좌우 알아서(계산) */
+}
+/*
+#moto {    
+    color:white; 
+    font-size: 20px;
+    background-color:rgb(95, 160, 125);
+    padding: 2rem 0; 
+}
+#moto:first-letter {
+    background-color:rgb(54, 92, 75);
+    font-size: 2.50rem;
+    padding: .25rem;
+    margin: .25rem;
+}
+*/
+.top-icon { /* 클래스 선택자 */
+    width: 50px; /* 가로넓이 : 50픽셀로, 세로높이는 이미지 비율대로 알아서 조절 */
+}
+.cover {
+    background-image: url("https://picsum.photos/id/17/1920/200");
+    background-position: center; /* 사진의 위치를 cover의 중앙에 배치*/
+    background-size: cover; /* 사진이 너무 크거나 작아도 공간에 맞춤 */
+    height: 200px;
+    line-height: 200px;
+    color: white;
+}
+.d-none {
+    display: none;
+}
+.profile {
+    width: 200px;
+    margin: 2rem 0; /* (바깥)여백 : 상하 기본값2배수, 좌우 0 */
+}
