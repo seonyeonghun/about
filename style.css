@@ -69,10 +69,11 @@ p {
 @media screen and (max-width: 480px) {
   /* 미디어의 가로 크기가 480일때 */
   #moto {
-    width: 360px;
+    width: 75%;
     background-size: contain;
     background-repeat: no-repeat;
     height: 40px;
     line-height: 26px;
+    font-size: 0.925rem;
   }
 }
