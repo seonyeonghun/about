@@ -28,7 +28,7 @@ p {
   width: 914px;
   height: 90px;
   line-height: 60px;
-  background-image: url("ribbone-green.png");
+  background-image: url("../images/ribbone-green.png");
   margin: 0 auto; /* (바깥)여백 : 상하0, 좌우 알아서(계산) */
 }
 /*
